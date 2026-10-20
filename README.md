@@ -31,7 +31,7 @@ macOS 13 以降。Apple 製チップと Intel 製チップの両方に対応し�
 
 ### 入れ方
 
-1. [Releases](../../releases/latest) から `DuckDesk-0.1.0.zip` をダウンロードして開きます
+1. [Releases](../../releases/latest) から `DuckDesk-0.1.1.zip` をダウンロードして開きます
 2. 出てきた `DuckDesk.app` を「アプリケーション」フォルダに移します
 3. `DuckDesk.app` を開きます。初回は「開けません」という警告が出ます
 4. 「システム設定」→「プライバシーとセキュリティ」を開き、下の方にある「このまま開く」を押します
@@ -40,7 +40,7 @@ macOS 13 以降。Apple 製チップと Intel 製チップの両方に対応し�
 
 起動するとメニューバーに 🦆 が出ます。設定や終了はここから行います。
 
-ダウンロードしたファイルが本物かを確かめたいときは、ターミナル（Mac に入っている、文字でコマンドを打つアプリ）で `shasum -a 256 DuckDesk-0.1.0.zip` を実行し、Releases に書いてある値と一致するかを見てください。このページ以外から入手した zip は使わないでください。
+ダウンロードしたファイルが本物かを確かめたいときは、ターミナル（Mac に入っている、文字でコマンドを打つアプリ）で `shasum -a 256 DuckDesk-0.1.1.zip` を実行し、Releases に書いてある値と一致するかを見てください。このページ以外から入手した zip は使わないでください。
 
 新しい版に入れ替えたあとは、アクセシビリティなどの許可が外れることがあります。そのときは許可を付け直してください。
 
@@ -98,7 +98,7 @@ macOS 13 or later. Runs on both Apple silicon and Intel Macs.
 
 ### Install
 
-1. Download `DuckDesk-0.1.0.zip` from [Releases](../../releases/latest) and open it
+1. Download `DuckDesk-0.1.1.zip` from [Releases](../../releases/latest) and open it
 2. Move `DuckDesk.app` into your Applications folder
 3. Open `DuckDesk.app`. The first time, macOS says it can't be opened
 4. Go to System Settings → Privacy & Security, scroll down and click "Open Anyway"
@@ -107,7 +107,7 @@ You see this warning because the app isn't notarized (Apple's pre-distribution c
 
 Once it's running, a 🦆 appears in the menu bar. Settings and Quit are there.
 
-To check that your download is genuine, run `shasum -a 256 DuckDesk-0.1.0.zip` in Terminal and compare the result with the value listed on the Releases page. Don't use zips from anywhere other than this page.
+To check that your download is genuine, run `shasum -a 256 DuckDesk-0.1.1.zip` in Terminal and compare the result with the value listed on the Releases page. Don't use zips from anywhere other than this page.
 
 After updating to a new version, permissions such as Accessibility may be reset. If so, grant them again.
 
@@ -165,7 +165,7 @@ macOS 13 trở lên. Chạy được trên cả máy Mac dùng chip Apple và ch
 
 ### Cài đặt
 
-1. Tải `DuckDesk-0.1.0.zip` từ [Releases](../../releases/latest) rồi mở ra
+1. Tải `DuckDesk-0.1.1.zip` từ [Releases](../../releases/latest) rồi mở ra
 2. Chuyển `DuckDesk.app` vào thư mục Applications
 3. Mở `DuckDesk.app`. Lần đầu macOS sẽ báo không thể mở
 4. Vào Cài đặt hệ thống → Quyền riêng tư & Bảo mật, kéo xuống và nhấn "Vẫn mở"
@@ -174,7 +174,7 @@ Cảnh báo này xuất hiện vì ứng dụng chưa được Apple công chứ
 
 Khi chạy, biểu tượng 🦆 sẽ xuất hiện trên thanh menu. Cài đặt và Thoát nằm ở đó.
 
-Để kiểm tra tệp tải về là bản gốc, hãy chạy `shasum -a 256 DuckDesk-0.1.0.zip` trong Terminal và so sánh với giá trị ghi trên trang Releases. Không dùng tệp zip lấy từ nơi khác ngoài trang này.
+Để kiểm tra tệp tải về là bản gốc, hãy chạy `shasum -a 256 DuckDesk-0.1.1.zip` trong Terminal và so sánh với giá trị ghi trên trang Releases. Không dùng tệp zip lấy từ nơi khác ngoài trang này.
 
 Sau khi cập nhật lên phiên bản mới, các quyền như Trợ năng có thể bị đặt lại. Khi đó hãy cấp lại quyền.
 
